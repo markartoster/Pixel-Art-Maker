@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="jscolor.min.js"></script>
+    <!-- <script type="text/javascript" src="designs.js"></script> -->
+</head>
+<body>
+
+    <div class="container main">
+      <div class="row">
+        <div class="col-sm-12 log">
+          <h1 class="lab">Lab: Pixel Art Maker</h1>
+        </div>
+      </div>
+      <div class="row display-flex">
+        <div class="col-sm-3 col-lg-2 col-xs-4 parts">
+        <div class="input-group">
+          <h2>Pick A Color</h2>
+          <input class="jscolor {position:'down', hash:true}" id="colorPicker" value="000000">
+          <img src="Eraser.png" data-toggle="tooltip" data-placement="bottom" id="eraser" title="Eraser" class="" alt="eraser" style="padding: 5px">
+          <img src="Bin.png" data-toggle="tooltip" data-placement="bottom" id="bin" title="Bin" class="" alt="Bin" style="padding: 5px">
+          <img src="Grid.png" data-toggle="tooltip" data-placement="bottom" id="grid" title="Grid" class="" alt="Grid" style="padding: 5px">
+        </div>
+
+        </div>
+        <div class="col-sm-6 col-lg-8 col-xs-4 parts">
+          <h2>Design Canvas  </h2>
+          <table id="pixel_canvas"></table>
+          </div>
+        <div class="col-sm-3 col-lg-2 col-xs-4 parts">
+          <h2>Choose Grid Size</h2>
+
+          <form id="sizePicker">
+
+                  <div class="input-group">
+                    <span class="input-group-addon "><i class="glyphicon glyphicon-resize-vertical"></i></span>
+                    <input type="number" class="form-control" id="input_height" name="height" min="1" value="3">
+                  </div>
+                  <div class="input-group">
+                    <span class="input-group-addon "><i class="glyphicon glyphicon-resize-horizontal"></i></span>
+                    <input type="number" class="form-control" id="input_width" name="width" min="1" value="3">
+                  </div>
+
+                  <input class="btn btn-success btn-spacing" type="submit" value="Submit">
+
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="designs.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

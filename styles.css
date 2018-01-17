@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'PixelArt';
+    src: url('fonts/pixelart.eot');
+    src: url('fonts/pixelart.eot') format('embedded-opentype'),
+         url('fonts/pixelart.woff2') format('woff2'),
+         url('fonts/pixelart.woff') format('woff'),
+         url('fonts/pixelart.ttf') format('truetype'),
+         url('fonts/pixelart.svg#pixelart') format('svg');
+}
+
+
+body {
+    text-align: center;
+    font-family: 'PixelArt';
+}
+
+.btn-spacing {
+  margin: 5px;
+}
+
+.lab, h1 {
+  font-family: 'PixelArt';
+  font-size: 70px;
+  margin: 0.2em;
+}
+
+.main {
+  min-height: 20px;
+  padding: 0px;
+  margin-bottom: 0px;
+  background-color: #4EDD5C;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+  flex-grow: 1;
+}
+
+.row.display-flex [class*='col-'] {
+    background-color: #469B4E;
+}
+
+
+
+.parts {
+  min-height: 0px;
+  padding: 19px;
+  margin-bottom: 0px;
+  background-color: #469B4E;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.log {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 0px;
+  background-color: #BDE2FF;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+/* h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+} */
+
+h2 {
+    margin: 1em 0 0.25em;
+    font-family: 'PixelArt';
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+    font-family: 'PixelArt';
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    background-color: white;
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
