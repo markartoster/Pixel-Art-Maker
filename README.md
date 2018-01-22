@@ -18,3 +18,6 @@ I used:
 - Page will not look well on Safari, don't know how to fix it yet
 - Page is in most cases responsive
 - I'm going to update it with some custom background in nearest future - stay Tuned!
+
+## Webiste Page
+Site can be accessed via link: https://markartoster.github.io/Pixel-Art-Maker/
